@@ -44,7 +44,7 @@ jobs:
     needs: deploy
     if: always()
     steps:
-      - name: Wait for 10 seconds before verification
+      - name: Wait for 11 seconds before verification
         run: sleep 10
   
       - name: Verify deployment
